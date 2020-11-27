@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li
+{
+   list-style: none;
+   margin: 0;
+}
+a,a:hover,a:focus
+{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6;p
+{
+    margin: 0;
+}
+/*---------------------------------------------------nav part start--------------------------------------------*/
+nav
+{
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, .8);
+    z-index: 9999;
+}
+nav ul li
+{
+    font-family: 'Raleway' sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 12px;    
+}
+nav ul li a
+{
+    color: #353535 !important; 
+    display: inline-block;
+    transition: .4s;
+}
+nav ul li a:hover
+{
+    color: #8ec448 !important; 
+}
+
+/*---------------------------------------------------nav part end--------------------------------------------*/
+
+/*---------------------------------------------------slider part start-------------------------------------*/
+
+#slider-one
+{
+    background:url(../images/bg-img.png) no-repeat;
+    background-size: cover;
+    padding: 350px 0px 250px 0px;
+    text-align: center;
+}
+#slider-one h3
+{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Lato;
+}
+#slider-one h1
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Raleway;
+    margin: 20px 0px 30px 0px;
+}
+#slider-one a
+{
+    color:#353535;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Raleway;
+    padding: 10px 25px;
+    border: 1px solid #353535;
+    border-radius: 3px;
+    margin: 0px 7px;
+    transition: .3s;
+}
+#slider-one a:hover
+{
+    color:#ffffff;
+    background: #8ec448;
+    border: none;
+}
+
+/*------------------------------------------------------slider part end--------------------------------------*/
+
+
+/*-----------------------------------------------------services part start-----------------------------------*/
+.sdiv1
+{
+    text-align: center;
+    margin-bottom: 30px;    
+}
+.sdiv1 h2
+{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: raleway;
+    text-transform: uppercase;
+    margin-top: 100px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.sdiv1 h2::after
+{
+   position: absolute;
+    width: 0;
+    height: 3px;
+    background: #353535;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    transition: .6s; 
+}
+.sdiv1 h2:hover::after
+{
+    width: 50px;
+}
+.sdiv1 p
+{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 20px;
+}
+.s-content
+{
+    box-sizing: border-box;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.s-content h5
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: raleway;
+}
+.s-content p
+{
+    font-size: 14px;
+    font-family: lato;
+}
+.s-content i
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------------------services part end-----------------------------------*/
